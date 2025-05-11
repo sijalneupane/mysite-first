@@ -30,6 +30,8 @@ wheels/
 *.egg
 
 # Virtual Environment
+#migrations/*_initial.py
+#migrations/__pycache__/
 .env
 .venv
 env/
@@ -54,3 +56,4 @@ htmlcov/
 .coverage.*
 coverage.xml
 *.cover
+migrations/
