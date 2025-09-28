@@ -55,9 +55,6 @@ class CreateItem(CreateView):
     def form_valid(self,form):
         form.instance.user_name=self.request.user
         return super().form_valid(form)
-        
-    
-    
     
 
 def update_item(request,id):
